@@ -11,7 +11,7 @@ mobs:register_mob("ky_christmas:reindeer", {
 	collisionbox = {-4.8, 0, -4.8, 4.8, 14.4, 4.8},
 	visual = "mesh",
 	visual_size = {x = 12, y = 12},
-	mesh = "reindeer.glb",
+	mesh = "reindeer.gltf",
 	rotate = 180,
 	textures = {
 		{"colormap.png"},
@@ -27,11 +27,13 @@ mobs:register_mob("ky_christmas:reindeer", {
 		speed_normal = 1,
 		speed_run = 2,
 		stand_start = 0.0,
-		stand_end = 1.0,
-		walk_start = 1.05,
-		walk_end = 2.05,
-		run_start = 2.10,
-		run_end = 3.10,
+		stand_end = 0.95,
+		walk_start = 1.0,
+		walk_end = 1.95,
+		run_start = 2.0,
+		run_end = 2.95,
+		die_start = 3.0,
+		die_end = 3.35,
 	},
 })
 

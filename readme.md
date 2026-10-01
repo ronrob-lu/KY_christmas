@@ -51,3 +51,6 @@ Bring holiday cheer and festive magic to your Luanti world with **KY Christmas**
 
 - **Code**: MIT License (c) 2026 ronrob-lu
 - **3D Models & Textures**: Created by [Kenney](https://kenney.nl) (CC0 1.0 Universal)
+- **Animated Reindeer Model**: "Reindeer.gltf" (animated version) by ronrob-lu 2026, licensed under CC BY 4.0.
+  - Changes: Added rigging, skinning, and custom animations.
+  - Base model "reindeer.glb" (also obj and fbx) by kenney.nl (originally released under CC0 1.0 Universal).
