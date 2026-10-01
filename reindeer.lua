@@ -8,9 +8,11 @@ mobs:register_mob("ky_christmas:reindeer", {
 	hp_min = 10,
 	hp_max = 15,
 	armor = 100,
-	collisionbox = {-0.4, 0, -0.4, 0.4, 1.2, 0.4},
+	collisionbox = {-4.8, 0, -4.8, 4.8, 14.4, 4.8},
 	visual = "mesh",
+	visual_size = {x = 12, y = 12},
 	mesh = "reindeer.glb",
+	rotate = 180,
 	textures = {
 		{"colormap.png"},
 	},
