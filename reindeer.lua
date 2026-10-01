@@ -36,6 +36,11 @@ mobs:register_mob("ky_christmas:reindeer", {
 		die_end = 3.35,
 		die_speed = 1,
 	},
+	do_custom = function(self, dtime, moveresult)
+		if self.state == "runaway" then
+			self:set_animation("run")
+		end
+	end,
 	do_punch = function(self, hitter, time_from_last_punch, tool_capabilities, direction, damage)
 		if self.runaway and self.order ~= "stand" then
 			if hitter and hitter:get_pos() then
