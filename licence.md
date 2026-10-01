@@ -25,3 +25,8 @@ SOFTWARE.
 Asset Attribution:
 3D Models and Textures created by Kenney (kenney.nl)
 License: Creative Commons Zero (CC0)
+
+"Reindeer.gltf" (animated version) by ronrob-lu 2026, licensed under CC BY 4.0.
+Changes: Added rigging, skinning, and custom animations.
+
+Base model "reindeer.glb" (also obj and fbx) by kenney.nl (originally released under CC0 1.0 Universal).
