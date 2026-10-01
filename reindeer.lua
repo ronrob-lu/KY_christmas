@@ -26,12 +26,12 @@ mobs:register_mob("ky_christmas:reindeer", {
 	animation = {
 		speed_normal = 1,
 		speed_run = 2,
-		stand_start = 0,
-		stand_end = 1,
-		walk_start = 0,
-		walk_end = 1,
-		run_start = 0,
-		run_end = 1,
+		stand_start = 0.0,
+		stand_end = 1.0,
+		walk_start = 1.05,
+		walk_end = 2.05,
+		run_start = 2.10,
+		run_end = 3.10,
 	},
 })
 
